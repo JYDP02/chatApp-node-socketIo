@@ -50,7 +50,7 @@ io.on("connection", (socket) => {
     console.log("a New User Connected");
 })
 
-mongoose.connect("mongodb+srv://Jaydeep:ZHJPPO5a1hvEV5P8@cluster0.wmtojau.mongodb.net/test", (err) => {
+mongoose.connect("<Mpngo URI>", (err) => {
     console.log("MongoDB connected Successfully", err);
 })
 
